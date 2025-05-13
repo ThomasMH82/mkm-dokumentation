@@ -1,0 +1,10 @@
+{
+  "label": "Anlegen von Produkten und Rezepturen",
+  "position": 2,  
+  
+  "link": {
+    "type": "generated-index",
+    "description": "Grundlagen für die Erstellung von Rezepturen und Produkten",
+    "slug": "/Produkte-und-Rezepturen"
+  }
+} 
