@@ -24,7 +24,7 @@ const FeatureList = [
   {
     title: 'Anlegen von Produkten und Rezepturen',
     Svg: () => (
-      <a href="/docs/category/produkte_und_rezepturen">
+      <a href="/docs/Produkte-und-Rezepturen">
       <img
         src='/img/sb_my_kitchen_icon_rgb_digital.png'
         alt="My Kitchen Manager"
@@ -60,7 +60,7 @@ const FeatureList = [
   {
     title: 'Bestellen von Speisenkarten',
     Svg: () => (
-      <a href="/docs/category/ek-produkte">
+      <a href="/docs/category/bestellen-von-speisekarten">
       <img
         src='/img/sb_my_kitchen_icon_rgb_digital.png'
         alt="My Kitchen Manager"
@@ -78,7 +78,7 @@ const FeatureList = [
   {
     title: 'Bestellen ohne Speisekarten',
     Svg: () => (
-      <a href="/docs/category/ek-produkte">
+      <a href="/docs/category/bestellen-ohne-speisenkarte">
       <img
         src='/img/sb_my_kitchen_icon_rgb_digital.png'
         alt="My Kitchen Manager"
@@ -96,7 +96,7 @@ const FeatureList = [
   {
     title: 'Wareneingang',
     Svg: () => (
-      <a href="/docs/category/ek-produkte">
+      <a href="/docs/category/wareneingang">
       <img
         src='/img/sb_my_kitchen_icon_rgb_digital.png'
         alt="My Kitchen Manager"
@@ -114,7 +114,7 @@ const FeatureList = [
   {
     title: 'Produktion',
     Svg: () => (
-      <a href="/docs/category/ek-produkte">
+      <a href="/docs/category/produktion">
       <img
         src='/img/sb_my_kitchen_icon_rgb_digital.png'
         alt="My Kitchen Manager"
@@ -132,7 +132,7 @@ const FeatureList = [
   {
     title: 'Verkäufe',
     Svg: () => (
-      <a href="/docs/category/ek-produkte">
+      <a href="/docs/category/verkäufe">
       <img
         src='/img/sb_my_kitchen_icon_rgb_digital.png'
         alt="My Kitchen Manager"
@@ -150,7 +150,7 @@ const FeatureList = [
   {
     title: 'Lager',
     Svg: () => (
-      <a href="/docs/category/ek-produkte">
+      <a href="/docs/category/lager">
       <img
         src='/img/sb_my_kitchen_icon_rgb_digital.png'
         alt="My Kitchen Manager"
@@ -168,7 +168,7 @@ const FeatureList = [
   {
     title: 'Qualitätsmanagement',
     Svg: () => (
-      <a href="/docs/category/ek-produkte">
+      <a href="/docs/category/qualitätsmanagement">
       <img
         src='/img/sb_my_kitchen_icon_rgb_digital.png'
         alt="My Kitchen Manager"
