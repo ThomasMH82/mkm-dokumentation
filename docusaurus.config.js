@@ -32,8 +32,8 @@ const config = {
   // useful metadata like html lang. For example, if your site is Chinese, you
   // may want to replace "en" with "zh-Hans".
   i18n: {
-    defaultLocale: 'en',
-    locales: ['en'],
+    defaultLocale: 'de',
+    locales: ['de'],
   },
 
   presets: [
@@ -48,7 +48,7 @@ const config = {
           editUrl:
             'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
         },
-        blog: {
+        /* blog: {
           showReadingTime: true,
           feedOptions: {
             type: ['rss', 'atom'],
@@ -62,7 +62,7 @@ const config = {
           onInlineTags: 'warn',
           onInlineAuthors: 'warn',
           onUntruncatedBlogPosts: 'warn',
-        },
+        }, */
         theme: {
           customCss: './src/css/custom.css',
         },
@@ -88,12 +88,12 @@ const config = {
             position: 'left',
             label: 'Dokumentation',
           },
-          {to: '/blog', label: 'Releasemeldungen', position: 'left'},
-          {
+          // {to: '/blog', label: 'Releasemeldungen', position: 'left'},
+          /* {
             href: 'https://github.com/facebook/docusaurus',
             label: 'GitHub',
             position: 'right',
-          },
+          }, */
         ],
       },
       footer: {
@@ -103,7 +103,7 @@ const config = {
             title: 'Dokumentation',
             items: [
               {
-                label: 'dokumentaion 2',
+                label: 'Grundlagen',
                 to: '/docs/intro',
               },
             ],
@@ -111,7 +111,7 @@ const config = {
           {
             title: 'Community',
             items: [
-              {
+              /* {
                 label: 'Stack Overflow',
                 href: 'https://stackoverflow.com/questions/tagged/docusaurus',
               },
@@ -122,24 +122,24 @@ const config = {
               {
                 label: 'X',
                 href: 'https://x.com/docusaurus',
-              },
+              }, */
             ],
-          },
+          } ,
           {
-            title: 'More',
+            title: 'Mehr Informationen',
             items: [
               {
-                label: 'Blog',
-                to: '/blog',
+                label: 'MyKitchenManager',
+                href: 'https://mykitchenmanager.de',
               },
               {
-                label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
+                label: 'Sander Gruppe',
+                href: 'https://www.sander-gruppe.com/',
               },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} MyKitchenManager`,
       },
       prism: {
         theme: prismThemes.github,
