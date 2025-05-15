@@ -28,3 +28,27 @@
   --ifm-color-primary-lightest: #8c8fda;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
+
+/* Footer-Links zentrieren */
+.footer__links {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  max-width: 960px;
+  /* oder eine andere Breite */
+}
+
+/* Zusätzlicher Abstand und Ausrichtung für die Spalten */
+.footer__col {
+  margin: 0 4rem;
+  min-width: 150px;
+  /* Mindestbreite */
+  text-align: center;
+  /* Text innerhalb der Spalten zentrieren */
+}
+
+/* Optional: Den Copyright-Text ebenfalls zentrieren */
+.footer__copyright {
+  text-align: center;
+  margin-top: 2rem;
+}

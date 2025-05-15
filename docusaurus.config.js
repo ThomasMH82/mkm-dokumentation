@@ -45,8 +45,8 @@ const config = {
           sidebarPath: './sidebars.js',
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+          //editUrl:
+            //'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
         },
         /* blog: {
           showReadingTime: true,
@@ -108,9 +108,10 @@ const config = {
               },
             ],
           },
-          {
-            title: 'Community',
-            items: [
+          //der utere title ist die mittlere Spalte im footer. dieser ist als platzhalter geblieben um ihn ggf nochmal zu benutzen
+          //{
+            //title: '                        ',
+            //items: [
               /* {
                 label: 'Stack Overflow',
                 href: 'https://stackoverflow.com/questions/tagged/docusaurus',
@@ -123,14 +124,18 @@ const config = {
                 label: 'X',
                 href: 'https://x.com/docusaurus',
               }, */
-            ],
-          } ,
+         // ],
+        //  } ,
           {
             title: 'Mehr Informationen',
             items: [
               {
                 label: 'MyKitchenManager',
                 href: 'https://mykitchenmanager.de',
+              },
+              {
+                label: 'Service-Bund',
+                href: 'https://servicebund.de',
               },
               {
                 label: 'Sander Gruppe',
