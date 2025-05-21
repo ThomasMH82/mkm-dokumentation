@@ -89,11 +89,11 @@ const config = {
             label: 'Dokumentation',
           },
           {to: '/blog', label: 'Releasemeldungen', position: 'left'},
-           {
+           /* {
             href: 'https://github.com/facebook/docusaurus',
             label: 'GitHub',
             position: 'right',
-          }, 
+          }, */ 
         ],
       },
       footer: {
