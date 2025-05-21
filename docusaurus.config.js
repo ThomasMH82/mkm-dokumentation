@@ -88,12 +88,12 @@ const config = {
             position: 'left',
             label: 'Dokumentation',
           },
-          // {to: '/blog', label: 'Releasemeldungen', position: 'left'},
-          /* {
+          {to: '/blog', label: 'Releasemeldungen', position: 'left'},
+           {
             href: 'https://github.com/facebook/docusaurus',
             label: 'GitHub',
             position: 'right',
-          }, */
+          }, 
         ],
       },
       footer: {
@@ -104,7 +104,11 @@ const config = {
             items: [
               {
                 label: 'Grundlagen',
-                to: '/docs/intro',
+                to: '/docs/intro',                
+              },
+              {
+                label: 'Releasemeldungen',
+                to: '/blog',                
               },
             ],
           },
