@@ -71,10 +71,11 @@ const config = {
   ],
 
   themeConfig:
+    
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       // Replace with your project's social card
-      image: 'img/docusaurus-social-card.jpg',
+      //image: 'img/docusaurus-social-card.jpg',
       navbar: {
         title: 'MyKitchenManager',
         logo: {
@@ -113,23 +114,15 @@ const config = {
             ],
           },
           //der utere title ist die mittlere Spalte im footer. dieser ist als platzhalter geblieben um ihn ggf nochmal zu benutzen
-          //{
-            //title: '                        ',
-            //items: [
-              /* {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-              },
+          {
+            title: ' Rechtliches',                       
+            items: [
               {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
-              },
-              {
-                label: 'X',
-                href: 'https://x.com/docusaurus',
-              }, */
-         // ],
-        //  } ,
+                label: 'Impressum',
+                to: '/impressum',
+              }, 
+          ],
+          } , 
           {
             title: 'Mehr Informationen',
             items: [
@@ -148,12 +141,16 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} MyKitchenManager`,
+        copyright: `Copyright © ${new Date().getFullYear()} MyKitchenManager` ,
       },
       prism: {
         theme: prismThemes.github,
         darkTheme: prismThemes.dracula,
       },
+      metadata:[
+        //{name: 'keywords', content: 'MyKitchenManager, Dokumentation, Service-Bund, Sander Gruppe'},
+        {name: 'description', content: 'Dokumentation für MyKitchenManager'},
+      ],
     }),
 };
 
