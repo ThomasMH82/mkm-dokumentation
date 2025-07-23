@@ -1,0 +1,8 @@
+{
+"label": "Beköstigungstag (BKT)",
+"position": 11,
+"link": {
+    "type": "generated-index",
+    "description": "Anlegen und Bearbeiten eines Beköstigungstags"
+}
+}

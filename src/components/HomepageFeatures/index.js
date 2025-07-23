@@ -53,7 +53,7 @@ const FeatureList = [
     
     description: (
       <>
-        Hier werden die Grundlagen für die Arbeit mit Speisenkarten.
+        Hier werden die Grundlagen für die Arbeit mit Speisenkarten erklärt.
       </>
     ),
   },
@@ -71,7 +71,7 @@ const FeatureList = [
     
     description: (
       <>
-        Hier wird erklärt wie man aus einer Speisenkarte besellen wird.
+        Hier wird erklärt wie man aus einer Speisenkarte bestellen kann.
       </>
     ),
   },
@@ -125,7 +125,7 @@ const FeatureList = [
     
     description: (
       <>
-        Hier werden die Grundlagen für die Arbeit mit der Produktionsplanung.
+        Hier werden die Grundlagen für die Arbeit mit der Produktionsplanung erläutert.
       </>
     ),
   },
@@ -143,7 +143,7 @@ const FeatureList = [
     
     description: (
       <>
-        Hier werden die Grundlagen für die Arbeit mit Verkäufen.
+        Hier werden die Grundlagen für die Arbeit mit Verkäufen erklärt.
       </>
     ),
   },
@@ -161,7 +161,7 @@ const FeatureList = [
     
     description: (
       <>
-        Hier werden die Grundlagen für die Arbeit mit ihrem Lager.
+        Hier werden die Grundlagen für die Arbeit mit ihrem Lager erklärt.
       </>
     ),
   },
@@ -179,10 +179,46 @@ const FeatureList = [
     
     description: (
       <>
-        Hier werden die Grundlagen für die Arbeit mit dem Modul Qualitätsmanagement.
+        Hier werden die Grundlagen für die Arbeit mit dem Modul Qualitätsmanagement erläutert.
       </>
     ),
   },
+  {
+    title: 'Beköstigungstag (BKT)',
+    Svg: () => (
+      <a href="/docs/category/beköstigungstag-bkt">
+      <img
+        src='/img/sb_my_kitchen_icon_rgb_digital.png'
+        alt="My Kitchen Manager"
+        className={styles.featureSvg}
+      />
+      </a>  
+    ),
+    
+    description: (
+      <>
+        Hier wird die Arbeit mit dem Modul Beköstigungstag erläutert.
+      </>
+    ),
+  },
+  {
+    title: 'Anlegen eines Lieferanten',
+    Svg: () => (
+      <a href="/docs/category/anlegen-von-lieferanten">
+      <img
+        src='/img/sb_my_kitchen_icon_rgb_digital.png'
+        alt="My Kitchen Manager"
+        className={styles.featureSvg}
+      />
+      </a>  
+    ),
+    
+    description: (
+      <>
+        Hier werden die Grundlagen für die Anlage eines Lieferanten erklärt.
+      </>
+    ),
+  }
 ]
 /* const FeatureList = [
   {

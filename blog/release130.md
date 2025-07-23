@@ -1,18 +1,18 @@
 ---
-slug: Release 1.2
-title: Release 1.2
+slug: Release 1.3
+title: Release 1.3
 authors: []
 tags: [mykitchenmanager]
 ---
 
-# Neuerungen und Verbesserungen in Version 1.2
+# Neuerungen und Verbesserungen in Version 1.3
 
 ### Neue Funktionen:
 
-- Schnellanlage eigener Produkte
-Eigene Produkte können jetzt deutlich schneller und einfacher angelegt werden. Sie können über diese Funktion einzelne Artikel, welche Sie regional beziehen inklusive des Lieferanten anlegen.
+- BKT
+Sie haben die Möglichkeit einen von Ihnen vorgegeben Beköstigungstag zu überwachen und zu berechnen.
 
-    **[Download Anleitung Schnellanlage von Produkten](/downloads/release_1_2/EK_Produkt_Schnell_Anlage.pdf)**    
+    **[Anleitung für den BKT](http://localhost:3000/docs/category/bek%C3%B6stigungstag-bkt)**    
 
 - Integration des Bestellwegs SB-Webshop
 Der Service-Bund-Webshop steht Ihnen nun als zusätzlicher Bestellweg zur Verfügung. Diese Funktion ermöglicht es Ihnen den Bestellvorschlag an den Webshop zu übertragen, wo Sie den Vorschlag dann finalisieren und abschicken können. Dafür müssen Sie zunächst die Konfiguration des entsprechenden Shops hinterlegen. Eine Kurzanleitung dazu erhalten Sie im Anhang. 
