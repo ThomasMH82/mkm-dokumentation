@@ -32,7 +32,7 @@ Damit eine Zutat bzw. eine Rezeptur bestellt werden kann, ist es zwingend erford
 
 Im Einkaufsmodul lassen sich Produkte archivieren. Man kann dies für ein einzelnes Produkt tun oder auch mehrere Produkte markieren und dann über den Button "Aktion" --> "Archiv".
 
-![](/img/produkt_archivieren_auswahl.png)
+![produkt_archivieren_auswahl](/img/produkt_archivieren_auswahl.png)
 
 Was ändert sich, wenn ein Artikel archiviert wird?
 
@@ -52,4 +52,4 @@ Wie kann man ihn reaktivieren? 
 
 - Über den Aktionsbutton kann man dann die Archivierung aufheben
 
-![](/img/produkte_archivieren_aufheben.png)
+![produtk_archivieren_aufheben](/img/produkte_archivieren_aufheben.png)
