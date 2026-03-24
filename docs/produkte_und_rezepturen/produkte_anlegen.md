@@ -30,7 +30,7 @@ Damit eine Zutat bzw. eine Rezeptur bestellt werden kann, ist es zwingend erford
 
 **So archiviere ich ein Produkt**
 
-Im Einkaufsmodul lassen sich Produkte archivieren. Man kann dies für ein einzelnes Produkt tun oder auch mehrere Produkte markieren und dann über den Button "Aktion" --> "Archiv".
+Im Einkaufsmodul lassen sich Produkte archivieren. Man kann dies für ein einzelnes Produkt tun oder auch mehrere Produkte markieren und dann über den Button "Aktion" -> "Archiv".
 
 ![produkt_archivieren_auswahl](/img/produkt_archivieren_auswahl.png)
 
